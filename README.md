@@ -12,4 +12,17 @@ All the experiments have been performed in an outdoor scenario by using two Soft
 
 ## Dataset
 
-Each folder contains the RSS samples divided by frequency and for each one them by distances.
+The ZIP archive file is split in six parts of 24MB each. Each folder contains the RSS samples divided by frequency (500.00MHz, 1,575.42MHz, and 2,437.00MHz) and for each one them by distances (0.5m, 1m, 1.5m, 2m, 3.5m, 5m, 10m, 15m, 20m). Each row of the file contains the RSS samples acquisition with an FFT size of 1024. As following an example on how to parse the data with Matlab (version 2020b).
+
+```matlab
+clc
+clear all
+format long
+
+mis = readmatrix('500MHz/0.5m/RX-dB.txt');
+
+%% Acquired Signal
+RX = 10.^(mis/10);
+Rx = RX(10:end,:);
+plot(mean(Rx))
+```
