@@ -26,3 +26,7 @@ RX = 10.^(mis/10);
 Rx = RX(10:end,:);
 plot(mean(Rx))
 ```
+
+<p align="center">
+     <img alt="Acquired Signal" src="./figs/example.png" width="800">
+</p>
