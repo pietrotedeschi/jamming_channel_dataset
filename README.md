@@ -19,7 +19,7 @@ clc
 clear all
 format long
 
-mis = readmatrix('500MHz/0.5m/RX-dB.txt');
+mis = readmatrix('500MHz/0.5/RX-dB.txt');
 
 %% Acquired Signal
 RX = 10.^(mis/10);
