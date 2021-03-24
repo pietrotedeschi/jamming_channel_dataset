@@ -10,6 +10,10 @@ To model the variation of the average Received Signal Strength (RSS) as a functi
 
 All the experiments have been performed in an outdoor scenario by using two Software Defined Radios such as the Ettus Research X310 SDR, featuring a UBX160 daughterboard as a jammer transmitter, a MyriadRF LimeSDR as receiver, and a Laptop Dell XPS15 9560, equipped with 32GB of RAM and 8 Intel Core i7700HQ processors running at 2.80 GHz. We acquired the samples by adopting the GNURadio Development Toolkit on three different reference channels (500.00MHz, 1,575.42MHz, and 2,437.00MHz) by using antennas that best fit the frequency range. The antennas gains are set to the maximum for the transmitter and for the receiver in order to have the maximum effectiveness to radiate (in TX) and convert (in RX) the power into a signal.
 
+<p align="center">
+     <img alt="Acquired Signal" src="./figs/setup.jpg" width="800">
+</p>
+
 ## Dataset
 
 The ZIP archive file is split in six parts of 24MB each. Each folder contains the RSS samples divided by frequency (500.00MHz, 1,575.42MHz, and 2,437.00MHz) and for each one them by distances (0.5m, 1m, 1.5m, 2m, 3.5m, 5m, 10m, 15m, 20m). Each row of the file contains the RSS samples acquisition with an FFT size of 1024. As following an example on how to parse the data with Matlab (version 2020b).
