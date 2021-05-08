@@ -34,3 +34,20 @@ plot(mean(Rx))
 <p align="center">
      <img alt="Acquired Signal" src="./figs/example.png" width="800">
 </p>
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## Disclaimer
+Any actions and or activities related to the material contained within this github repository is solely your responsibility. The misuse of the information in this repository can result in criminal charges brought against the persons in question. The author(s) will not be held responsible in the event any criminal charges be brought against any individuals misusing the information in this repository to break the law.
+
+## Authors
+- Pietro Tedeschi (ptedeschi@hbku.edu.qa)
+- Savio Sciancalepore (s.sciancalepore@tue.nl)
+- Roberto Di Pietro (rdipietro@hbku.edu.qa)
+
+Division of Information and Computing Technology (ICT), College of Science and Engineering (CSE) - Hamad Bin Khalifa University (HBKU), Doha, Qatar
+Security Group - Faculty of Mathematics and Computer Science, Eindhoven University of Technology (TU/e), Eindhoven, The Netherlands
+
+## License
+The dataset is released under the GPL3-Clause <a href="LICENSE">license</a>.
