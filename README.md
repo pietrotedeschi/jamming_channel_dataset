@@ -47,6 +47,7 @@ Any actions and or activities related to the material contained within this gith
 - Roberto Di Pietro (rdipietro@hbku.edu.qa)
 
 Division of Information and Computing Technology (ICT), College of Science and Engineering (CSE) - Hamad Bin Khalifa University (HBKU), Doha, Qatar
+
 Security Group - Faculty of Mathematics and Computer Science, Eindhoven University of Technology (TU/e), Eindhoven, The Netherlands
 
 ## License
